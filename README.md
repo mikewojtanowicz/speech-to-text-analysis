@@ -16,6 +16,12 @@ To install the required libraries, run the following command:
 pip install -r requirements.txt
 ```
 
+## Setup
+1. Create a new bucket in Google Cloud Storage.
+2. Set the bucket name in the `.env` file.
+3. Set the Google Cloud API Key in the `.env` file.
+4. Set the OpenAI API Key in the `.env` file.
+
 ## Usage
 
 To use the speech to text analysis tool, run the following command:
